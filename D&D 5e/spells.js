@@ -52,27 +52,57 @@ const puppeteer = require('puppeteer');
       const durationUnit = spell.querySelector('.panel-body p span[ng-bind="spell.durationUnit"]');
       const needConcentration = spell.querySelector('.panel-body p span[ng-if="spell.doesNeedConcentration"]');
 
-      const descriptionParagraphs = spell.querySelectorAll('.panel-body div.description p, .panel-body div.description li');
+      const description = spell.querySelectorAll('.panel-body div.description');
       
       let body = {
         description: [],
-        variables: []
       };
-      [...descriptionParagraphs].forEach(paragraph => {
-        const variable = paragraph.querySelector('b'); 
-
-        if(variable) {
-          if(variable.innerText === 'Em Níveis Superiores'){ 
-            body.higherLevels = paragraph.innerText;  
-          } else {
-            body.variables.push({
-              name: variable.innerText,
-              description: paragraph.innerText
-            });
+      
+      [...description].forEach(part => {
+        [...part.childNodes].forEach(element => {
+          if(element.localName === 'p') {
+            const variable = element.querySelector('b'); 
+            if(variable) {
+              if(variable.innerText === 'Em Níveis Superiores' || variable.innerText === 'Em Níveis Superiores.') {
+                body.higherLevels = element.innerText;  
+              } else {
+                body.description.push({
+                  type: 'option',
+                  value: variable.innerText,
+                  description: element.innerText,
+                })
+              }
+            } else {
+              body.description.push({
+                type: 'default',
+                description: element.innerText
+              });
+            }
           }
-        } else {
-          body.description.push(paragraph.innerText);
-        }
+          if(element.localName === 'ul') {
+            body.description.push({
+              type: 'list',
+              items: [...element.childNodes].map(item => item.innerText)
+            })
+          }
+
+          if(element.localName === 'table') {
+            const title = element.querySelector('caption');
+            const tableRows = element.querySelectorAll('tr');
+            let tableContent = [...tableRows].map(row => {
+              let rows = [[...row.childNodes].map(td => td.innerText)] 
+              return rows;
+            });
+            const tableHeader = tableContent.shift();
+
+            body.description.push({
+              type: 'table',
+              caption: title ? title.innerText : null,
+              header: tableHeader.map(td => td),
+              content: tableContent
+            })
+          }
+        });
       });
 
       const footer = spell.querySelector('.panel-footer');
@@ -85,11 +115,11 @@ const puppeteer = require('puppeteer');
           type: type.innerText,
           classes: [...classes].map(uniqueClass => uniqueClass.innerText),
           casting: {
-            time: castingTime ? castingTime.innerText : 0,
+            time: castingTime ? castingTime.innerText : null,
             unit: castingTimeUnity.innerText
           },
           range: {
-            value: spellRange ? spellRange.innerText : 0,
+            value: spellRange ? spellRange.innerText : null,
             unit: spellRangeUnity.innerText
           },
           components: {
@@ -104,10 +134,11 @@ const puppeteer = require('puppeteer');
           },
           duration: {
             value: duration ? duration.innerHTML : 0,
-            unit: durationUnit ? durationUnit.innerText : '',
+            unit: durationUnit ? durationUnit.innerText : null,
             concentration: needConcentration ? true : false
           },
-          body
+          body,
+          footer,
         };
 
         console.log(spellObject);
