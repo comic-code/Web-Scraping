@@ -1,4 +1,5 @@
 const puppeteer = require('puppeteer');
+const { writeFileSync } = require('fs');
 
 (async () => {
   // Ir até a página
@@ -26,8 +27,10 @@ const puppeteer = require('puppeteer');
   await page.waitForSelector('[class="pagination-last ng-scope disabled"]');
   await page.waitForSelector('spell-casters-names > span > a');
 
-  const spells = page.evaluate(() => {
+  const spells = await page.evaluate(() => {
     const nodeList = document.querySelectorAll('#spells_list spell');
+    let arraySpells = [];
+
     nodeList.forEach((spell, i) => {
       const name = spell.querySelector('div .panel-heading h3.title > span');
       const originalName = spell.querySelector('div .panel-heading h3.title > small span');
@@ -46,7 +49,6 @@ const puppeteer = require('puppeteer');
       const materialComponent = spell.querySelector('.panel-body p span[ng-bind="spell.materialComponent"]');
       const materialCost = spell.querySelector('.panel-body p span[ng-bind="spell.materialComponentCost"]');
       const materialIsConsumed = spell.querySelector('.panel-body p span[ng-bind="spell.isMaterialComponentConsumed"]');
-
 
       const duration = spell.querySelector('.panel-body p span[ng-bind="spell.duration"]');
       const durationUnit = spell.querySelector('.panel-body p span[ng-bind="spell.durationUnit"]');
@@ -105,8 +107,9 @@ const puppeteer = require('puppeteer');
         });
       });
 
-      const footer = spell.querySelector('.panel-footer');
-
+      const fontReference = spell.querySelector('.panel-footer li em');
+      const fontPage = spell.querySelector('.panel-footer li span[ng-bind="reference.page"]');
+     
       // O sistema de mapeamento deixa uma spell vazia, caso o número total seja impar, é necessário validar;
       if (name && originalName && type && classes) {
         const spellObject = {
@@ -138,11 +141,24 @@ const puppeteer = require('puppeteer');
             concentration: needConcentration ? true : false
           },
           body,
-          footer,
+          font: {
+            reference: fontReference.innerText,
+            page: fontPage.innerText
+          }
         };
 
-        console.log(spellObject);
+        arraySpells.push(spellObject);
       }
     });
+
+    return arraySpells;
   });
+
+  try {
+    writeFileSync('./result.json', JSON.stringify(spells, null, 4), 'utf-8');
+    console.log('Sucesso!');
+
+  } catch(error) {
+    console.log(`ERROR: ${error}`);
+  }
 })();
