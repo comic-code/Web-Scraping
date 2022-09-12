@@ -677,64 +677,47 @@
         {
           "type": "table",
           "caption": "Estatísticas De Objeto Animado",
-          "header": [
-            "Tamanho",
-            "PV",
-            "CA",
-            "Ataque",
-            "For",
-            "Des"
-          ],
+          "header": "Tamanho",
           "content": [
             [
-              [
-                "Miúdo",
-                "20",
-                "18",
-                "+8 para atingir, 1d4 + 4 dano",
-                "4",
-                "18"
-              ]
+              "Miúdo",
+              "20",
+              "18",
+              "+8 para atingir, 1d4 + 4 dano",
+              "4",
+              "18"
             ],
             [
-              [
-                "Pequeno",
-                "25",
-                "16",
-                "+6 para atingir, 1d8 + 2 dano",
-                "6",
-                "14"
-              ]
+              "Pequeno",
+              "25",
+              "16",
+              "+6 para atingir, 1d8 + 2 dano",
+              "6",
+              "14"
             ],
             [
-              [
-                "Médio",
-                "40",
-                "13",
-                "+5 para atingir, 2d6 + 1 dano",
-                "10",
-                "12"
-              ]
+              "Médio",
+              "40",
+              "13",
+              "+5 para atingir, 2d6 + 1 dano",
+              "10",
+              "12"
             ],
             [
-              [
-                "Grande",
-                "50",
-                "10",
-                "+6 para atingir, 2d10 + 2 dano",
-                "14",
-                "10"
-              ]
+              "Grande",
+              "50",
+              "10",
+              "+6 para atingir, 2d10 + 2 dano",
+              "14",
+              "10"
             ],
             [
-              [
-                "Enorme",
-                "80",
-                "10",
-                "+8 para atingir, 2d12 + 4 dano",
-                "18",
-                "6"
-              ]
+              "Enorme",
+              "80",
+              "10",
+              "+8 para atingir, 2d12 + 4 dano",
+              "18",
+              "6"
             ]
           ]
         },
@@ -3313,34 +3296,23 @@
         {
           "type": "table",
           "caption": null,
-          "header": [
-            "D10",
-            "Comportamento"
-          ],
+          "header": "D10",
           "content": [
             [
-              [
-                "1",
-                "A criatura usa todo seu deslocamento para se mover em uma direção aleatória. Para determinar a direção, role um d8 e atribua uma direção a cada face do dado. A criatura não realiza uma ação nesse turno."
-              ]
+              "1",
+              "A criatura usa todo seu deslocamento para se mover em uma direção aleatória. Para determinar a direção, role um d8 e atribua uma direção a cada face do dado. A criatura não realiza uma ação nesse turno."
             ],
             [
-              [
-                "2—6",
-                "A criatura não se move ou realiza ações nesse turno."
-              ]
+              "2—6",
+              "A criatura não se move ou realiza ações nesse turno."
             ],
             [
-              [
-                "7—8",
-                "A criatura usa sua ação para realizar um ataque corpo-a-corpo contra uma criatura, determinada aleatoriamente, ao seu alcance. Se não houver criaturas dentro do alcance, a criatura não faz nada nesse turno."
-              ]
+              "7—8",
+              "A criatura usa sua ação para realizar um ataque corpo-a-corpo contra uma criatura, determinada aleatoriamente, ao seu alcance. Se não houver criaturas dentro do alcance, a criatura não faz nada nesse turno."
             ],
             [
-              [
-                "9—10",
-                "A criatura pode agir e se mover normalmente."
-              ]
+              "9—10",
+              "A criatura pode agir e se mover normalmente."
             ]
           ]
         },
@@ -4247,126 +4219,85 @@
         {
           "type": "table",
           "caption": "Precipitação",
-          "header": [
-            "Estágio",
-            "Condição"
-          ],
+          "header": "Estágio",
           "content": [
             [
-              [
-                "1",
-                "Céu claro"
-              ]
+              "1",
+              "Céu claro"
             ],
             [
-              [
-                "2",
-                "Parcialmente encoberto"
-              ]
+              "2",
+              "Parcialmente encoberto"
             ],
             [
-              [
-                "3",
-                "Céu escuro ou nublado"
-              ]
+              "3",
+              "Céu escuro ou nublado"
             ],
             [
-              [
-                "4",
-                "Chuva, granizo ou neve"
-              ]
+              "4",
+              "Chuva, granizo ou neve"
             ],
             [
-              [
-                "5",
-                "Chuva torrencial, tempestade de granizo ou nevasca"
-              ]
+              "5",
+              "Chuva torrencial, tempestade de granizo ou nevasca"
             ]
           ]
         },
         {
           "type": "table",
           "caption": "Temperatura",
-          "header": [
-            "Estágio",
-            "Condição"
-          ],
+          "header": "Estágio",
           "content": [
             [
-              [
-                "1",
-                "Calor insuportável"
-              ]
+              "1",
+              "Calor insuportável"
             ],
             [
-              [
-                "2",
-                "Quente"
-              ]
+              "2",
+              "Quente"
             ],
             [
-              [
-                "3",
-                "Morno"
-              ]
+              "3",
+              "Morno"
             ],
             [
-              [
-                "4",
-                "Frio"
-              ]
+              "4",
+              "Frio"
             ],
             [
-              [
-                "5",
-                "Gelado"
-              ]
+              "5",
+              "Gelado"
             ],
             [
-              [
-                "6",
-                "Frio ártico"
-              ]
+              "6",
+              "Frio ártico"
             ]
           ]
         },
         {
           "type": "table",
           "caption": "Vento",
-          "header": [
-            "Estágio",
-            "Condição"
-          ],
+          "header": "Estágio",
           "content": [
             [
-              [
-                "1",
-                "Calmo"
-              ]
+              "1",
+              "Calmo"
             ],
             [
-              [
-                "2",
-                "Vento moderado"
-              ]
+              "2",
+              "Vento moderado"
             ],
             [
-              [
-                "3",
-                "Vento forte"
-              ]
+              "3",
+              "Vento forte"
             ],
             [
-              [
-                "4",
-                "Ventania"
-              ]
+              "4",
+              "Ventania"
             ],
             [
-              [
-                "5",
-                "Temporal"
-              ]
+              "5",
+              "Temporal"
             ]
           ]
         }
@@ -4696,40 +4627,27 @@
         {
           "type": "table",
           "caption": null,
-          "header": [
-            "Material",
-            "Duração"
-          ],
+          "header": "Material",
           "content": [
             [
-              [
-                "Matéria vegetal",
-                "1 dia"
-              ]
+              "Matéria vegetal",
+              "1 dia"
             ],
             [
-              [
-                "Pedra ou cristal",
-                "12 horas"
-              ]
+              "Pedra ou cristal",
+              "12 horas"
             ],
             [
-              [
-                "Metais preciosos",
-                "1 hora"
-              ]
+              "Metais preciosos",
+              "1 hora"
             ],
             [
-              [
-                "Gemas",
-                "10 minutos"
-              ]
+              "Gemas",
+              "10 minutos"
             ],
             [
-              [
-                "Adamante ou mitral",
-                "1 minuto"
-              ]
+              "Adamante ou mitral",
+              "1 minuto"
             ]
           ]
         },
@@ -13978,94 +13896,63 @@
         {
           "type": "table",
           "caption": null,
-          "header": [
-            "D100",
-            "Raça"
-          ],
+          "header": "D100",
           "content": [
             [
-              [
-                "01—04",
-                "Draconato"
-              ]
+              "01—04",
+              "Draconato"
             ],
             [
-              [
-                "05—13",
-                "Anão, colina"
-              ]
+              "05—13",
+              "Anão, colina"
             ],
             [
-              [
-                "14—21",
-                "Anão, montanha"
-              ]
+              "14—21",
+              "Anão, montanha"
             ],
             [
-              [
-                "22—25",
-                "Efo, negro"
-              ]
+              "22—25",
+              "Efo, negro"
             ],
             [
-              [
-                "26—34",
-                "Efo, alto"
-              ]
+              "26—34",
+              "Efo, alto"
             ],
             [
-              [
-                "35—42",
-                "Elfo, floresta"
-              ]
+              "35—42",
+              "Elfo, floresta"
             ],
             [
-              [
-                "43—46",
-                "Gnomo, floresta"
-              ]
+              "43—46",
+              "Gnomo, floresta"
             ],
             [
-              [
-                "47—52",
-                "Gnomo, rochas"
-              ]
+              "47—52",
+              "Gnomo, rochas"
             ],
             [
-              [
-                "53—56",
-                "Meio-elfo"
-              ]
+              "53—56",
+              "Meio-elfo"
             ],
             [
-              [
-                "57—60",
-                "Meio-orc"
-              ]
+              "57—60",
+              "Meio-orc"
             ],
             [
-              [
-                "61—68",
-                "Halfing, pés leves"
-              ]
+              "61—68",
+              "Halfing, pés leves"
             ],
             [
-              [
-                "69—76",
-                "Halfing, robusto"
-              ]
+              "69—76",
+              "Halfing, robusto"
             ],
             [
-              [
-                "77—96",
-                "Humano"
-              ]
+              "77—96",
+              "Humano"
             ],
             [
-              [
-                "97—00",
-                "Tiefling"
-              ]
+              "97—00",
+              "Tiefling"
             ]
           ]
         },
@@ -15959,76 +15846,56 @@
         {
           "type": "table",
           "caption": null,
-          "header": [
-            "Familiaridade",
-            "Fiasco",
-            "Área Similar",
-            "Fora Do Alvo",
-            "No Alvo"
-          ],
+          "header": "Familiaridade",
           "content": [
             [
-              [
-                "Círculo permanente",
-                "—",
-                "—",
-                "—",
-                "01—100"
-              ]
+              "Círculo permanente",
+              "—",
+              "—",
+              "—",
+              "01—100"
             ],
             [
-              [
-                "Objeto associado",
-                "—",
-                "—",
-                "—",
-                "01—100"
-              ]
+              "Objeto associado",
+              "—",
+              "—",
+              "—",
+              "01—100"
             ],
             [
-              [
-                "Muito familiar",
-                "01—05",
-                "06—13",
-                "14—24",
-                "25—100"
-              ]
+              "Muito familiar",
+              "01—05",
+              "06—13",
+              "14—24",
+              "25—100"
             ],
             [
-              [
-                "Visto casualmente",
-                "01—33",
-                "34—43",
-                "44—53",
-                "54—100"
-              ]
+              "Visto casualmente",
+              "01—33",
+              "34—43",
+              "44—53",
+              "54—100"
             ],
             [
-              [
-                "Visto uma vez",
-                "01—43",
-                "44—53",
-                "54—73",
-                "74—100"
-              ]
+              "Visto uma vez",
+              "01—43",
+              "44—53",
+              "54—73",
+              "74—100"
             ],
             [
-              [
-                "Descrição",
-                "01—43",
-                "44—53",
-                "54—73",
-                "74—100"
-              ]
+              "Descrição",
+              "01—43",
+              "44—53",
+              "54—73",
+              "74—100"
             ],
             [
-              [
-                "Descrição falsa",
-                "01—50",
-                "51—100",
-                "—",
-                "—"
-              ]
+              "Descrição falsa",
+              "01—50",
+              "51—100",
+              "—",
+              "—"
             ]
           ]
         },
@@ -16893,56 +16760,38 @@
         {
           "type": "table",
           "caption": null,
-          "header": [
-            "Conhecimento",
-            "Modificador De Resistência"
-          ],
+          "header": "Conhecimento",
           "content": [
             [
-              [
-                "Segunda mão (você ouviu falar do alvo)",
-                "+5"
-              ]
+              "Segunda mão (você ouviu falar do alvo)",
+              "+5"
             ],
             [
-              [
-                "Primeira mão (você foi apresentado ao alvo)",
-                "+0"
-              ]
+              "Primeira mão (você foi apresentado ao alvo)",
+              "+0"
             ],
             [
-              [
-                "Familiar (você conhece bem o alvo)",
-                "-5"
-              ]
+              "Familiar (você conhece bem o alvo)",
+              "-5"
             ]
           ]
         },
         {
           "type": "table",
           "caption": null,
-          "header": [
-            "Conexão",
-            "Modificador De Resistência"
-          ],
+          "header": "Conexão",
           "content": [
             [
-              [
-                "Descrição ou foto",
-                "-2"
-              ]
+              "Descrição ou foto",
+              "-2"
             ],
             [
-              [
-                "Pertences ou roupas",
-                "-4"
-              ]
+              "Pertences ou roupas",
+              "-4"
             ],
             [
-              [
-                "Parte do corpo, mecha de cabelo, recorte de unha ou simular",
-                "-10"
-              ]
+              "Parte do corpo, mecha de cabelo, recorte de unha ou simular",
+              "-10"
             ]
           ]
         },

@@ -93,7 +93,7 @@ const { writeFileSync } = require('fs');
             const title = element.querySelector('caption');
             const tableRows = element.querySelectorAll('tr');
             let tableContent = [...tableRows].map(row => {
-              let rows = [[...row.childNodes].map(td => td.innerText)];
+              let rows = [...row.childNodes].map(td => td.innerText);
               return rows;
             });
             const tableHeader = tableContent.shift();
