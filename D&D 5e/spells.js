@@ -8,7 +8,8 @@ const { writeFileSync } = require('fs');
   // Esperar todas as magias carregarem
   // Mapear todas magias e organizar em um JSON
 
-  const browser = await puppeteer.launch({ headless: false });
+  // const browser = await puppeteer.launch({ headless: false });
+  const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto('https://dnd5spells.rpgist.net/pt-BR/spells');
 
@@ -55,24 +56,24 @@ const { writeFileSync } = require('fs');
       const needConcentration = spell.querySelector('.panel-body p span[ng-if="spell.doesNeedConcentration"]');
 
       const description = spell.querySelectorAll('.panel-body div.description');
-      
+
       let body = {
-        description: [],
+        description: []
       };
-      
+
       [...description].forEach(part => {
         [...part.childNodes].forEach(element => {
-          if(element.localName === 'p') {
-            const variable = element.querySelector('b'); 
-            if(variable) {
-              if(variable.innerText === 'Em Níveis Superiores' || variable.innerText === 'Em Níveis Superiores.') {
-                body.higherLevels = element.innerText;  
+          if (element.localName === 'p') {
+            const variable = element.querySelector('b');
+            if (variable) {
+              if (variable.innerText === 'Em Níveis Superiores' || variable.innerText === 'Em Níveis Superiores.') {
+                body.higherLevels = element.innerText;
               } else {
                 body.description.push({
                   type: 'option',
                   value: variable.innerText,
-                  description: element.innerText,
-                })
+                  description: element.innerText
+                });
               }
             } else {
               body.description.push({
@@ -81,18 +82,18 @@ const { writeFileSync } = require('fs');
               });
             }
           }
-          if(element.localName === 'ul') {
+          if (element.localName === 'ul') {
             body.description.push({
               type: 'list',
               items: [...element.childNodes].map(item => item.innerText)
-            })
+            });
           }
 
-          if(element.localName === 'table') {
+          if (element.localName === 'table') {
             const title = element.querySelector('caption');
             const tableRows = element.querySelectorAll('tr');
             let tableContent = [...tableRows].map(row => {
-              let rows = [[...row.childNodes].map(td => td.innerText)] 
+              let rows = [[...row.childNodes].map(td => td.innerText)];
               return rows;
             });
             const tableHeader = tableContent.shift();
@@ -100,16 +101,16 @@ const { writeFileSync } = require('fs');
             body.description.push({
               type: 'table',
               caption: title ? title.innerText : null,
-              header: tableHeader.map(td => td),
+              header: tableHeader[0],
               content: tableContent
-            })
+            });
           }
         });
       });
 
       const fontReference = spell.querySelector('.panel-footer li em');
       const fontPage = spell.querySelector('.panel-footer li span[ng-bind="reference.page"]');
-     
+
       // O sistema de mapeamento deixa uma spell vazia, caso o número total seja impar, é necessário validar;
       if (name && originalName && type && classes) {
         const spellObject = {
@@ -133,7 +134,7 @@ const { writeFileSync } = require('fs');
               description: materialComponent ? materialComponent.innerText : null,
               cost: materialCost ? materialCost : null,
               isConsumed: materialIsConsumed ? true : false
-            } 
+            }
           },
           duration: {
             value: duration ? duration.innerHTML : 0,
@@ -155,10 +156,9 @@ const { writeFileSync } = require('fs');
   });
 
   try {
-    writeFileSync('./result.json', JSON.stringify(spells, null, 4), 'utf-8');
+    writeFileSync('./spells.json', JSON.stringify(spells, null, 2), 'utf-8');
     console.log('Sucesso!');
-
-  } catch(error) {
+  } catch (error) {
     console.log(`ERROR: ${error}`);
   }
 })();
