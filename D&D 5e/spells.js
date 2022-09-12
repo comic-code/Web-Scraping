@@ -101,7 +101,7 @@ const { writeFileSync } = require('fs');
             body.description.push({
               type: 'table',
               caption: title ? title.innerText : null,
-              header: tableHeader[0],
+              header: tableHeader,
               content: tableContent
             });
           }

@@ -677,7 +677,14 @@
         {
           "type": "table",
           "caption": "Estatísticas De Objeto Animado",
-          "header": "Tamanho",
+          "header": [
+            "Tamanho",
+            "PV",
+            "CA",
+            "Ataque",
+            "For",
+            "Des"
+          ],
           "content": [
             [
               "Miúdo",
@@ -3296,7 +3303,10 @@
         {
           "type": "table",
           "caption": null,
-          "header": "D10",
+          "header": [
+            "D10",
+            "Comportamento"
+          ],
           "content": [
             [
               "1",
@@ -4219,7 +4229,10 @@
         {
           "type": "table",
           "caption": "Precipitação",
-          "header": "Estágio",
+          "header": [
+            "Estágio",
+            "Condição"
+          ],
           "content": [
             [
               "1",
@@ -4246,7 +4259,10 @@
         {
           "type": "table",
           "caption": "Temperatura",
-          "header": "Estágio",
+          "header": [
+            "Estágio",
+            "Condição"
+          ],
           "content": [
             [
               "1",
@@ -4277,7 +4293,10 @@
         {
           "type": "table",
           "caption": "Vento",
-          "header": "Estágio",
+          "header": [
+            "Estágio",
+            "Condição"
+          ],
           "content": [
             [
               "1",
@@ -4627,7 +4646,10 @@
         {
           "type": "table",
           "caption": null,
-          "header": "Material",
+          "header": [
+            "Material",
+            "Duração"
+          ],
           "content": [
             [
               "Matéria vegetal",
@@ -13896,7 +13918,10 @@
         {
           "type": "table",
           "caption": null,
-          "header": "D100",
+          "header": [
+            "D100",
+            "Raça"
+          ],
           "content": [
             [
               "01—04",
@@ -15846,7 +15871,13 @@
         {
           "type": "table",
           "caption": null,
-          "header": "Familiaridade",
+          "header": [
+            "Familiaridade",
+            "Fiasco",
+            "Área Similar",
+            "Fora Do Alvo",
+            "No Alvo"
+          ],
           "content": [
             [
               "Círculo permanente",
@@ -16760,7 +16791,10 @@
         {
           "type": "table",
           "caption": null,
-          "header": "Conhecimento",
+          "header": [
+            "Conhecimento",
+            "Modificador De Resistência"
+          ],
           "content": [
             [
               "Segunda mão (você ouviu falar do alvo)",
@@ -16779,7 +16813,10 @@
         {
           "type": "table",
           "caption": null,
-          "header": "Conexão",
+          "header": [
+            "Conexão",
+            "Modificador De Resistência"
+          ],
           "content": [
             [
               "Descrição ou foto",
