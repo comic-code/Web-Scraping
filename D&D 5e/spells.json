@@ -2,17 +2,20 @@
   {
     "name": "Acalmar Emoções",
     "originalName": "Calm Emotions",
+    "level": 2,
+    "school": "encantamento",
     "type": "2º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -26,7 +29,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -54,18 +57,21 @@
   {
     "name": "Adivinhação",
     "originalName": "Divination",
+    "level": 4,
+    "school": "adivinhação",
     "type": "4º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "círculo da terra (floresta)",
       "círculo da terra (planice)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -79,7 +85,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -107,17 +113,20 @@
   {
     "name": "Ajuda",
     "originalName": "Aid",
+    "level": 2,
+    "school": "abjuração",
     "type": "2º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -131,7 +140,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -152,17 +161,20 @@
   {
     "name": "Alarme",
     "originalName": "Alarm",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": true,
     "classes": [
       "mago",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -176,7 +188,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -200,16 +212,19 @@
   {
     "name": "Aliado Planar",
     "originalName": "Planar Ally",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -255,13 +270,16 @@
   {
     "name": "Alterar",
     "originalName": "Alter Self",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -279,7 +297,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -314,13 +332,16 @@
   {
     "name": "Alterar Forma",
     "originalName": "Shapechange",
+    "level": 9,
+    "school": "transmutação",
     "type": "9º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -338,7 +359,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -378,14 +399,17 @@
   {
     "name": "Amizade Animal",
     "originalName": "Animal Friendship",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -403,7 +427,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -424,7 +448,10 @@
   {
     "name": "Ampliar Plantas",
     "originalName": "Plant Growth",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
@@ -435,7 +462,7 @@
       "unit": "especial"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -481,7 +508,10 @@
   {
     "name": "Âncora Planar",
     "originalName": "Planar Binding",
+    "level": 5,
+    "school": "abjuração",
     "type": "5º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -489,11 +519,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -507,7 +537,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -532,7 +562,10 @@
   {
     "name": "Andar Na Água",
     "originalName": "Water Walk",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "druida",
@@ -540,11 +573,11 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -558,7 +591,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -582,17 +615,20 @@
   {
     "name": "Animar Mortos",
     "originalName": "Animate Dead",
+    "level": 3,
+    "school": "necromancia",
     "type": "3º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -635,18 +671,21 @@
   {
     "name": "Animar Objetos",
     "originalName": "Animate Objects",
+    "level": 5,
+    "school": "transmutação",
     "type": "5º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -660,7 +699,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -747,17 +786,20 @@
   {
     "name": "Antipatia/Simpatia",
     "originalName": "Antipathy/Sympathy",
+    "level": 8,
+    "school": "encantamento",
     "type": "8º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -771,7 +813,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "dias",
       "concentration": false
     },
@@ -814,7 +856,10 @@
   {
     "name": "Aprimorar Habilidade",
     "originalName": "Enhance Ability",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -822,7 +867,7 @@
       "feiticeiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -840,7 +885,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -891,17 +936,20 @@
   {
     "name": "Aprisionamento",
     "originalName": "Imprisonment",
+    "level": 9,
+    "school": "abjuração",
     "type": "9º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -997,12 +1045,15 @@
   {
     "name": "Arca Secreta",
     "originalName": "Secret Chest",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -1048,16 +1099,19 @@
   {
     "name": "Área Escorregadia",
     "originalName": "Grease",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -1071,7 +1125,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -1095,16 +1149,19 @@
   {
     "name": "Arma Espiritual",
     "originalName": "Spiritual Weapon",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -1118,7 +1175,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -1147,13 +1204,16 @@
   {
     "name": "Arma Mágica",
     "originalName": "Magic Weapon",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "mago",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -1171,7 +1231,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -1192,13 +1252,16 @@
   {
     "name": "Armadura Arcana",
     "originalName": "Mage Armor",
+    "level": 1,
+    "school": "abjuração",
     "type": "1º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -1216,7 +1279,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -1236,18 +1299,21 @@
   {
     "name": "Arrombar",
     "originalName": "Knock",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -1293,16 +1359,19 @@
   {
     "name": "Assassino Fantasmagórico",
     "originalName": "Phantasmal Killer",
+    "level": 4,
+    "school": "ilusão",
     "type": "4º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -1316,7 +1385,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -1337,7 +1406,10 @@
   {
     "name": "Ataque Certeiro",
     "originalName": "True Strike",
+    "level": 0,
+    "school": "adivinhação",
     "type": "truque de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -1345,11 +1417,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -1363,7 +1435,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": true
     },
@@ -1383,7 +1455,10 @@
   {
     "name": "Ataque Visual",
     "originalName": "Eyebite",
+    "level": 6,
+    "school": "necromancia",
     "type": "6º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -1391,7 +1466,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -1409,7 +1484,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -1441,12 +1516,15 @@
   {
     "name": "Augúrio",
     "originalName": "Augury",
+    "level": 2,
+    "school": "adivinhação",
     "type": "2º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -1508,17 +1586,20 @@
   {
     "name": "Aumentar/Reduzir",
     "originalName": "Enlarge/Reduce",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -1532,7 +1613,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -1566,12 +1647,15 @@
   {
     "name": "Aura Mágica Do Arcanista",
     "originalName": "Arcanist's Magic Aura",
+    "level": 2,
+    "school": "ilusão",
     "type": "2º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -1589,7 +1673,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -1623,12 +1707,15 @@
   {
     "name": "Aura Sagrada",
     "originalName": "Holy Aura",
+    "level": 8,
+    "school": "abjuração",
     "type": "8º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -1646,7 +1733,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -1666,12 +1753,15 @@
   {
     "name": "Auxílio Divino",
     "originalName": "Divine Favor",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -1689,7 +1779,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -1709,7 +1799,10 @@
   {
     "name": "Banimento",
     "originalName": "Banishment",
+    "level": 4,
+    "school": "abjuração",
     "type": "4º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
@@ -1718,11 +1811,11 @@
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -1736,7 +1829,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -1765,17 +1858,20 @@
   {
     "name": "Banquete De Heróis",
     "originalName": "Heroes' Feast",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -1789,7 +1885,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -1813,16 +1909,19 @@
   {
     "name": "Barreira De Lâminas",
     "originalName": "Blade Barrier",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -1836,7 +1935,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -1860,17 +1959,20 @@
   {
     "name": "Benção",
     "originalName": "Bless",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -1884,7 +1986,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -1905,17 +2007,20 @@
   {
     "name": "Boca Encantada",
     "originalName": "Magic Mouth",
+    "level": 2,
+    "school": "ilusão",
     "type": "2º nível de ilusão",
+    "isRitual": true,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -1957,18 +2062,21 @@
   {
     "name": "Bola De Fogo",
     "originalName": "Fireball",
+    "level": 3,
+    "school": "evocação",
     "type": "3º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -2007,17 +2115,20 @@
   {
     "name": "Bola De Fogo Controlável",
     "originalName": "Delayed Blast Fireball",
+    "level": 7,
+    "school": "evocação",
     "type": "7º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -2031,7 +2142,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -2064,13 +2175,16 @@
   {
     "name": "Bom Fruto",
     "originalName": "Goodberry",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -2112,12 +2226,15 @@
   {
     "name": "Bordão Místico",
     "originalName": "Shillelagh",
+    "level": 0,
+    "school": "transmutação",
     "type": "truque de transmutação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -2135,7 +2252,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -2155,13 +2272,16 @@
   {
     "name": "Caminhar Em Árvores",
     "originalName": "Tree Stride",
+    "level": 5,
+    "school": "conjuração",
     "type": "5º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -2179,7 +2299,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -2203,16 +2323,19 @@
   {
     "name": "Caminhar No Vento",
     "originalName": "Wind Walk",
+    "level": 6,
+    "school": "transmutação",
     "type": "6º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -2226,7 +2349,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -2250,13 +2373,16 @@
   {
     "name": "Campo Antimagia",
     "originalName": "Antimagic Field",
+    "level": 8,
+    "school": "abjuração",
     "type": "8º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -2274,7 +2400,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -2328,16 +2454,19 @@
   {
     "name": "Cão Fiel",
     "originalName": "Faithful Hound",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -2351,7 +2480,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -2379,17 +2508,20 @@
   {
     "name": "Carne Para Pedra",
     "originalName": "Flesh To Stone",
+    "level": 6,
+    "school": "transmutação",
     "type": "6º nível de transmutação",
+    "isRitual": true,
     "classes": [
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -2403,7 +2535,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -2435,17 +2567,20 @@
   {
     "name": "Cativar",
     "originalName": "Enthrall",
+    "level": 2,
+    "school": "encantamento",
     "type": "2º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -2459,7 +2594,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -2479,7 +2614,10 @@
   {
     "name": "Cegueira/Surdez",
     "originalName": "Blindness/Deafness",
+    "level": 2,
+    "school": "necromancia",
     "type": "2º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -2488,11 +2626,11 @@
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -2506,7 +2644,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -2527,13 +2665,16 @@
   {
     "name": "Chama Contínua",
     "originalName": "Continual Flame",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -2571,16 +2712,19 @@
   {
     "name": "Chama Sagrada",
     "originalName": "Sacred Flame",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -2618,17 +2762,20 @@
   {
     "name": "Chuva De Meteoros",
     "originalName": "Meteor Swarm",
+    "level": 9,
+    "school": "evocação",
     "type": "9º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "1",
+      "value": 1,
       "unit": "milhas"
     },
     "components": {
@@ -2642,7 +2789,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -2666,18 +2813,21 @@
   {
     "name": "Círculo Da Morte",
     "originalName": "Circle Of Death",
+    "level": 6,
+    "school": "necromancia",
     "type": "6º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -2712,18 +2862,21 @@
   {
     "name": "Círculo De Teletransporte",
     "originalName": "Teleportation Circle",
+    "level": 5,
+    "school": "conjuração",
     "type": "5º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -2737,7 +2890,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -2765,7 +2918,10 @@
   {
     "name": "Círculo Mágico",
     "originalName": "Magic Circle",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
@@ -2773,11 +2929,11 @@
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -2791,7 +2947,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -2828,7 +2984,10 @@
   {
     "name": "Clarividência",
     "originalName": "Clairvoyance",
+    "level": 3,
+    "school": "adivinhação",
     "type": "3º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -2836,11 +2995,11 @@
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "1",
+      "value": 1,
       "unit": "milhas"
     },
     "components": {
@@ -2854,7 +3013,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -2882,18 +3041,21 @@
   {
     "name": "Coluna De Chamas",
     "originalName": "Flame Strike",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "juramento da devoção",
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -2928,18 +3090,21 @@
   {
     "name": "Comando",
     "originalName": "Command",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino",
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -2953,7 +3118,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -3003,7 +3168,10 @@
   {
     "name": "Compreender Idiomas",
     "originalName": "Comprehend Languages",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "bardo",
       "bruxo",
@@ -3011,7 +3179,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -3029,7 +3197,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -3053,16 +3221,19 @@
   {
     "name": "Compulsão",
     "originalName": "Compulsion",
+    "level": 4,
+    "school": "encantamento",
     "type": "4º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -3076,7 +3247,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -3100,13 +3271,16 @@
   {
     "name": "Comunhão",
     "originalName": "Commune",
+    "level": 5,
+    "school": "adivinhação",
     "type": "5º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "juramento da devoção"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -3124,7 +3298,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -3152,13 +3326,16 @@
   {
     "name": "Comunhão Com A Natureza",
     "originalName": "Commune With Nature",
+    "level": 5,
+    "school": "adivinhação",
     "type": "5º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -3214,14 +3391,17 @@
   {
     "name": "Cone De Frio",
     "originalName": "Cone Of Cold",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "círculo da terra (ártico)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -3264,7 +3444,10 @@
   {
     "name": "Confusão",
     "originalName": "Confusion",
+    "level": 4,
+    "school": "encantamento",
     "type": "4º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
@@ -3272,11 +3455,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -3290,7 +3473,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -3341,14 +3524,17 @@
   {
     "name": "Conhecimento Lendário",
     "originalName": "Legend Lore",
+    "level": 5,
+    "school": "adivinhação",
     "type": "5º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -3390,17 +3576,20 @@
   {
     "name": "Conjurar Animais",
     "originalName": "Conjure Animals",
+    "level": 3,
+    "school": "conjuração",
     "type": "3º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -3414,7 +3603,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -3456,16 +3645,19 @@
   {
     "name": "Conjurar Celestial",
     "originalName": "Conjure Celestial",
+    "level": 7,
+    "school": "conjuração",
     "type": "7º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -3479,7 +3671,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -3508,17 +3700,20 @@
   {
     "name": "Conjurar Elementais Menores",
     "originalName": "Conjure Minor Elementals",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -3532,7 +3727,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -3574,17 +3769,20 @@
   {
     "name": "Conjurar Elemental",
     "originalName": "Conjure Elemental",
+    "level": 5,
+    "school": "conjuração",
     "type": "5º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -3598,7 +3796,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -3634,17 +3832,20 @@
   {
     "name": "Conjurar Fada",
     "originalName": "Conjure Fey",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -3658,7 +3859,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -3691,17 +3892,20 @@
   {
     "name": "Conjurar Seres Da Floresta",
     "originalName": "Conjure Woodland Beings",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -3715,7 +3919,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -3757,17 +3961,20 @@
   {
     "name": "Consagrar",
     "originalName": "Hallow",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "o corruptor"
     ],
     "casting": {
-      "time": "24",
+      "time": 24,
       "unit": "horas"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -3859,7 +4066,10 @@
   {
     "name": "Consertar",
     "originalName": "Mending",
+    "level": 0,
+    "school": "transmutação",
     "type": "truque de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -3868,7 +4078,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -3886,7 +4096,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -3910,16 +4120,19 @@
   {
     "name": "Constrição",
     "originalName": "Entangle",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -3933,7 +4146,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -3961,13 +4174,16 @@
   {
     "name": "Contato Extraplanar",
     "originalName": "Contact Other Plane",
+    "level": 5,
+    "school": "adivinhação",
     "type": "5º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -3985,7 +4201,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -4009,12 +4225,15 @@
   {
     "name": "Contingência",
     "originalName": "Contingency",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -4032,7 +4251,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "dias",
       "concentration": false
     },
@@ -4056,18 +4275,21 @@
   {
     "name": "Contramágica",
     "originalName": "Counterspell",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "reação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -4102,18 +4324,21 @@
   {
     "name": "Controlar A Água",
     "originalName": "Control Water",
+    "level": 4,
+    "school": "transmutação",
     "type": "4º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "300",
+      "value": 300,
       "unit": "pés"
     },
     "components": {
@@ -4127,7 +4352,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -4183,14 +4408,17 @@
   {
     "name": "Controlar O Clima",
     "originalName": "Control Weather",
+    "level": 8,
+    "school": "transmutação",
     "type": "8º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -4208,7 +4436,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": true
     },
@@ -4330,16 +4558,19 @@
   {
     "name": "Convocar Familiar",
     "originalName": "Find Familiar",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": true,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -4397,16 +4628,19 @@
   {
     "name": "Convocar Montaria",
     "originalName": "Find Steed",
+    "level": 2,
+    "school": "conjuração",
     "type": "2º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "paladino"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -4456,16 +4690,19 @@
   {
     "name": "Convocar Relâmpagos",
     "originalName": "Call Lightning",
+    "level": 3,
+    "school": "conjuração",
     "type": "3º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -4479,7 +4716,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -4508,17 +4745,20 @@
   {
     "name": "Corrente De Relâmpagos",
     "originalName": "Chain Lightning",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -4532,7 +4772,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -4557,17 +4797,20 @@
   {
     "name": "Crescer Espinhos",
     "originalName": "Spike Growth",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -4581,7 +4824,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -4605,17 +4848,20 @@
   {
     "name": "Criação",
     "originalName": "Creation",
+    "level": 5,
+    "school": "ilusão",
     "type": "5º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -4688,18 +4934,21 @@
   {
     "name": "Criar Alimentos",
     "originalName": "Create Food And Water",
+    "level": 3,
+    "school": "conjuração",
     "type": "3º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino",
       "círculo da terra (deserto)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -4733,12 +4982,15 @@
   {
     "name": "Criar Chamas",
     "originalName": "Produce Flame",
+    "level": 0,
+    "school": "conjuração",
     "type": "truque de conjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -4756,7 +5008,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -4784,18 +5036,21 @@
   {
     "name": "Criar Mortos",
     "originalName": "Create Undead",
+    "level": 6,
+    "school": "necromancia",
     "type": "6º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -4838,17 +5093,20 @@
   {
     "name": "Criar Ou Destruir Água",
     "originalName": "Create Or Destroy Water",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -4893,17 +5151,20 @@
   {
     "name": "Criar Passagem",
     "originalName": "Passwall",
+    "level": 5,
+    "school": "transmutação",
     "type": "5º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "mago",
       "círculo da terra (montanha)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -4917,7 +5178,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -4941,12 +5202,15 @@
   {
     "name": "Cúpula Antivida",
     "originalName": "Antilife Shell",
+    "level": 5,
+    "school": "abjuração",
     "type": "5º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -4964,7 +5228,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -4992,17 +5256,20 @@
   {
     "name": "Cura Completa",
     "originalName": "Heal",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -5037,16 +5304,19 @@
   {
     "name": "Cura Completa Em Massa",
     "originalName": "Mass Heal",
+    "level": 9,
+    "school": "evocação",
     "type": "9º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -5080,7 +5350,10 @@
   {
     "name": "Curar Ferimentos",
     "originalName": "Cure Wounds",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -5089,7 +5362,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5128,18 +5401,21 @@
   {
     "name": "Curar Ferimentos Em Massa",
     "originalName": "Mass Cure Wounds",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -5174,17 +5450,20 @@
   {
     "name": "Dança Irresistível",
     "originalName": "Irresistible Dance",
+    "level": 6,
+    "school": "encantamento",
     "type": "6º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -5198,7 +5477,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -5222,18 +5501,21 @@
   {
     "name": "Dedo Da Morte",
     "originalName": "Finger Of Death",
+    "level": 7,
+    "school": "necromancia",
     "type": "7º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -5271,13 +5553,16 @@
   {
     "name": "Desejo",
     "originalName": "Wish",
+    "level": 9,
+    "school": "conjuração",
     "type": "9º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5341,17 +5626,20 @@
   {
     "name": "Desintegrar",
     "originalName": "Disintegrate",
+    "level": 6,
+    "school": "transmutação",
     "type": "6º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -5398,7 +5686,10 @@
   {
     "name": "Despedaçar",
     "originalName": "Shatter",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -5406,11 +5697,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -5449,13 +5740,16 @@
   {
     "name": "Despertar",
     "originalName": "Awaken",
+    "level": 5,
+    "school": "transmutação",
     "type": "5º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida"
     ],
     "casting": {
-      "time": "8",
+      "time": 8,
       "unit": "horas"
     },
     "range": {
@@ -5497,13 +5791,16 @@
   {
     "name": "Despistar",
     "originalName": "Mislead",
+    "level": 5,
+    "school": "ilusão",
     "type": "5º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5521,7 +5818,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -5549,7 +5846,10 @@
   {
     "name": "Detectar Magia",
     "originalName": "Detect Magic",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "bardo",
       "clérigo",
@@ -5560,7 +5860,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5578,7 +5878,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -5602,13 +5902,16 @@
   {
     "name": "Detectar O Bem E Mal",
     "originalName": "Detect Evil And Good",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5626,7 +5929,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -5650,14 +5953,17 @@
   {
     "name": "Detectar Pensamentos",
     "originalName": "Detect Thoughts",
+    "level": 2,
+    "school": "adivinhação",
     "type": "2º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5675,7 +5981,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -5711,7 +6017,10 @@
   {
     "name": "Detectar Veneno E Doença",
     "originalName": "Detect Poison And Disease",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "druida",
@@ -5719,7 +6028,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5737,7 +6046,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -5761,14 +6070,17 @@
   {
     "name": "Dificultar Detecção",
     "originalName": "Nondetection",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5786,7 +6098,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -5806,16 +6118,19 @@
   {
     "name": "Disco Flutuante",
     "originalName": "Floating Disk",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": true,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -5829,7 +6144,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -5857,14 +6172,17 @@
   {
     "name": "Disfarçar",
     "originalName": "Disguise Self",
+    "level": 1,
+    "school": "ilusão",
     "type": "1º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5882,7 +6200,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -5910,7 +6228,10 @@
   {
     "name": "Dissipar Magia",
     "originalName": "Dispel Magic",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -5921,11 +6242,11 @@
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -5960,13 +6281,16 @@
   {
     "name": "Dissipar O Bem E Mal",
     "originalName": "Dispel Evil And Good",
+    "level": 5,
+    "school": "abjuração",
     "type": "5º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -5984,7 +6308,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -6018,16 +6342,19 @@
   {
     "name": "Doença Plena",
     "originalName": "Harm",
+    "level": 6,
+    "school": "necromancia",
     "type": "6º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6061,17 +6388,20 @@
   {
     "name": "Dominar Besta",
     "originalName": "Dominate Beast",
+    "level": 4,
+    "school": "encantamento",
     "type": "4º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6085,7 +6415,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -6118,7 +6448,10 @@
   {
     "name": "Dominar Monstro",
     "originalName": "Dominate Monster",
+    "level": 8,
+    "school": "encantamento",
     "type": "8º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -6126,11 +6459,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6144,7 +6477,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -6177,18 +6510,21 @@
   {
     "name": "Dominar Pessoa",
     "originalName": "Dominate Person",
+    "level": 5,
+    "school": "encantamento",
     "type": "5º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6202,7 +6538,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -6235,16 +6571,19 @@
   {
     "name": "Druidismo",
     "originalName": "Druidcraft",
+    "level": 0,
+    "school": "transmutação",
     "type": "truque de transmutação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -6287,16 +6626,19 @@
   {
     "name": "Encarnação Fantasmagórica",
     "originalName": "Weird",
+    "level": 9,
+    "school": "ilusão",
     "type": "9º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -6310,7 +6652,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -6330,18 +6672,21 @@
   {
     "name": "Encontrar Armadilhas",
     "originalName": "Find Traps",
+    "level": 2,
+    "school": "adivinhação",
     "type": "2º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -6379,14 +6724,17 @@
   {
     "name": "Encontrar O Caminho",
     "originalName": "Find The Path",
+    "level": 6,
+    "school": "adivinhação",
     "type": "6º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -6404,7 +6752,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "dias",
       "concentration": true
     },
@@ -6428,7 +6776,10 @@
   {
     "name": "Enfeitiçar Pessoa",
     "originalName": "Charm Person",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -6437,11 +6788,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -6455,7 +6806,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -6476,7 +6827,10 @@
   {
     "name": "Enfraquecer Intelecto",
     "originalName": "Feeblemind",
+    "level": 8,
+    "school": "encantamento",
     "type": "8º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -6484,11 +6838,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -6530,14 +6884,17 @@
   {
     "name": "Enviar Mensagem",
     "originalName": "Sending",
+    "level": 3,
+    "school": "evocação",
     "type": "3º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -6555,7 +6912,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -6579,14 +6936,17 @@
   {
     "name": "Escrita Ilusória",
     "originalName": "Illusory Script",
+    "level": 1,
+    "school": "ilusão",
     "type": "1º nível de ilusão",
+    "isRitual": true,
     "classes": [
       "bardo",
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -6604,7 +6964,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "dias",
       "concentration": false
     },
@@ -6636,13 +6996,16 @@
   {
     "name": "Escudo Arcano",
     "originalName": "Shield",
+    "level": 1,
+    "school": "abjuração",
     "type": "1º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "reação"
     },
     "range": {
@@ -6660,7 +7023,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -6680,17 +7043,20 @@
   {
     "name": "Escudo Da Fé",
     "originalName": "Shield Of Faith",
+    "level": 1,
+    "school": "abjuração",
     "type": "1º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6704,7 +7070,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -6724,13 +7090,16 @@
   {
     "name": "Escudo De Fogo",
     "originalName": "Fire Shield",
+    "level": 4,
+    "school": "evocação",
     "type": "4º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago",
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -6748,7 +7117,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -6776,7 +7145,10 @@
   {
     "name": "Escuridão",
     "originalName": "Darkness",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
@@ -6784,11 +7156,11 @@
       "círculo da terra (pântano)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6802,7 +7174,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -6826,16 +7198,19 @@
   {
     "name": "Esfera Congelante",
     "originalName": "Freezing Sphere",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "300",
+      "value": 300,
       "unit": "pés"
     },
     "components": {
@@ -6878,17 +7253,20 @@
   {
     "name": "Esfera Flamejante",
     "originalName": "Flaming Sphere",
+    "level": 2,
+    "school": "conjuração",
     "type": "2º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -6902,7 +7280,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -6931,16 +7309,19 @@
   {
     "name": "Esfera Resiliente",
     "originalName": "Resilient Sphere",
+    "level": 4,
+    "school": "evocação",
     "type": "4º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -6954,7 +7335,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -6982,17 +7363,20 @@
   {
     "name": "Espada Arcana",
     "originalName": "Arcane Sword",
+    "level": 7,
+    "school": "evocação",
     "type": "7º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -7006,7 +7390,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -7030,12 +7414,15 @@
   {
     "name": "Espíritos Guardiões",
     "originalName": "Spirit Guardians",
+    "level": 3,
+    "school": "conjuração",
     "type": "3º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7053,7 +7440,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -7078,17 +7465,20 @@
   {
     "name": "Espirro Ácido",
     "originalName": "Acid Splash",
+    "level": 0,
+    "school": "conjuração",
     "type": "truque de conjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -7126,17 +7516,20 @@
   {
     "name": "Esquentar Metal",
     "originalName": "Heat Metal",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -7150,7 +7543,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -7175,12 +7568,15 @@
   {
     "name": "Estabilizar",
     "originalName": "Spare The Dying",
+    "level": 0,
+    "school": "necromancia",
     "type": "truque de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7218,18 +7614,21 @@
   {
     "name": "Explosão Solar",
     "originalName": "Sunburst",
+    "level": 8,
+    "school": "evocação",
     "type": "8º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -7271,16 +7670,19 @@
   {
     "name": "Fabricar",
     "originalName": "Fabricate",
+    "level": 4,
+    "school": "transmutação",
     "type": "4º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -7322,14 +7724,17 @@
   {
     "name": "Falar Com Animais",
     "originalName": "Speak With Animals",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "bardo",
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7347,7 +7752,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -7367,17 +7772,20 @@
   {
     "name": "Falar Com Os Mortos",
     "originalName": "Speak With Dead",
+    "level": 3,
+    "school": "necromancia",
     "type": "3º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -7391,7 +7799,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -7415,14 +7823,17 @@
   {
     "name": "Falar Com Plantas",
     "originalName": "Speak With Plants",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7440,7 +7851,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -7476,17 +7887,20 @@
   {
     "name": "Flecha Ácida",
     "originalName": "Acid Arrow",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago",
       "círculo da terra (pântano)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -7521,17 +7935,20 @@
   {
     "name": "Fogo Das Fadas",
     "originalName": "Faerie Fire",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -7545,7 +7962,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -7569,7 +7986,10 @@
   {
     "name": "Forma Etérea",
     "originalName": "Etherealness",
+    "level": 7,
+    "school": "transmutação",
     "type": "7º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -7578,7 +7998,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7596,7 +8016,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -7633,14 +8053,17 @@
   {
     "name": "Forma Gasosa",
     "originalName": "Gaseous Form",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7658,7 +8081,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -7686,16 +8109,19 @@
   {
     "name": "Formas Animais",
     "originalName": "Animal Shapes",
+    "level": 8,
+    "school": "transmutação",
     "type": "8º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pessoal"
     },
     "components": {
@@ -7709,7 +8135,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": true
     },
@@ -7737,13 +8163,16 @@
   {
     "name": "Fundir Em Pedra",
     "originalName": "Meld Into Stone",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7761,7 +8190,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -7789,14 +8218,17 @@
   {
     "name": "Glifo De Vigilância",
     "originalName": "Glyph Of Warding",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
@@ -7861,13 +8293,16 @@
   {
     "name": "Globo De Invulnerabilidade",
     "originalName": "Globe Of Invulnerability",
+    "level": 6,
+    "school": "abjuração",
     "type": "6º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -7885,7 +8320,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -7910,18 +8345,21 @@
   {
     "name": "Globos De Luz",
     "originalName": "Dancing Lights",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -7935,7 +8373,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -7959,17 +8397,20 @@
   {
     "name": "Guardião Da Fé",
     "originalName": "Guardian Of Faith",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "juramento da devoção"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -7983,7 +8424,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -8007,13 +8448,16 @@
   {
     "name": "Heroísmo",
     "originalName": "Heroism",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -8031,7 +8475,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -8052,13 +8496,16 @@
   {
     "name": "Identificação",
     "originalName": "Identify",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -8100,7 +8547,10 @@
   {
     "name": "Idiomas",
     "originalName": "Tongues",
+    "level": 3,
+    "school": "adivinhação",
     "type": "3º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -8109,7 +8559,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -8127,7 +8577,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -8147,7 +8597,10 @@
   {
     "name": "Ilusão Menor",
     "originalName": "Minor Illusion",
+    "level": 0,
+    "school": "ilusão",
     "type": "truque de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -8155,11 +8608,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -8173,7 +8626,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -8205,17 +8658,20 @@
   {
     "name": "Ilusão Programada",
     "originalName": "Programmed Illusion",
+    "level": 6,
+    "school": "ilusão",
     "type": "6º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -8261,7 +8717,10 @@
   {
     "name": "Imagem Maior",
     "originalName": "Major Image",
+    "level": 3,
+    "school": "ilusão",
     "type": "3º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -8269,11 +8728,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -8287,7 +8746,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -8316,18 +8775,21 @@
   {
     "name": "Imagem Silenciosa",
     "originalName": "Silent Image",
+    "level": 1,
+    "school": "ilusão",
     "type": "1º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -8341,7 +8803,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -8369,7 +8831,10 @@
   {
     "name": "Imobilizar Monstro",
     "originalName": "Hold Monster",
+    "level": 5,
+    "school": "encantamento",
     "type": "5º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -8377,11 +8842,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -8395,7 +8860,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -8416,7 +8881,10 @@
   {
     "name": "Imobilizar Pessoa",
     "originalName": "Hold Person",
+    "level": 2,
+    "school": "encantamento",
     "type": "2º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -8426,11 +8894,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -8444,7 +8912,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -8465,12 +8933,15 @@
   {
     "name": "Infligir Ferimentos",
     "originalName": "Inflict Wounds",
+    "level": 1,
+    "school": "necromancia",
     "type": "1º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -8509,16 +8980,19 @@
   {
     "name": "Inseto Gigante",
     "originalName": "Giant Insect",
+    "level": 4,
+    "school": "transmutação",
     "type": "4º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -8532,7 +9006,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -8564,18 +9038,21 @@
   {
     "name": "Inverter A Gravidade",
     "originalName": "Reverse Gravity",
+    "level": 7,
+    "school": "transmutação",
     "type": "7º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "100",
+      "value": 100,
       "unit": "pés"
     },
     "components": {
@@ -8589,7 +9066,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -8617,7 +9094,10 @@
   {
     "name": "Invisibilidade",
     "originalName": "Invisibility",
+    "level": 2,
+    "school": "ilusão",
     "type": "2º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -8626,7 +9106,7 @@
       "círculo da terra (planice)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -8644,7 +9124,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -8665,14 +9145,17 @@
   {
     "name": "Invisibilidade Maior",
     "originalName": "Greater Invisibility",
+    "level": 4,
+    "school": "ilusão",
     "type": "4º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -8690,7 +9173,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -8710,12 +9193,15 @@
   {
     "name": "Invocação Instantânea",
     "originalName": "Instant Summons",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": true,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -8765,16 +9251,19 @@
   {
     "name": "Isolamento",
     "originalName": "Sequester",
+    "level": 7,
+    "school": "transmutação",
     "type": "7º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -8816,16 +9305,19 @@
   {
     "name": "Labirinto",
     "originalName": "Maze",
+    "level": 8,
+    "school": "conjuração",
     "type": "8º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -8839,7 +9331,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -8867,12 +9359,15 @@
   {
     "name": "Lâmina Flamejante",
     "originalName": "Flame Blade",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -8890,7 +9385,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -8919,18 +9414,21 @@
   {
     "name": "Lentidão",
     "originalName": "Slow",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "círculo da terra (ártico)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -8944,7 +9442,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -8976,13 +9474,16 @@
   {
     "name": "Leque Cromático",
     "originalName": "Color Spray",
+    "level": 1,
+    "school": "ilusão",
     "type": "1º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9000,7 +9501,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -9025,17 +9526,20 @@
   {
     "name": "Levitação",
     "originalName": "Levitate",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -9049,7 +9553,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -9077,16 +9581,19 @@
   {
     "name": "Ligação Telepática",
     "originalName": "Telepathic Bond",
+    "level": 5,
+    "school": "adivinhação",
     "type": "5º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -9100,7 +9607,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -9124,13 +9631,16 @@
   {
     "name": "Limpar A Mente",
     "originalName": "Mind Blank",
+    "level": 8,
+    "school": "abjuração",
     "type": "8º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9148,7 +9658,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -9168,14 +9678,17 @@
   {
     "name": "Localizar Animais Ou Plantas",
     "originalName": "Locate Animals Or Plants",
+    "level": 2,
+    "school": "adivinhação",
     "type": "2º nível de adivinhação",
+    "isRitual": true,
     "classes": [
       "bardo",
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9213,7 +9726,10 @@
   {
     "name": "Localizar Criatura",
     "originalName": "Locate Creature",
+    "level": 4,
+    "school": "adivinhação",
     "type": "4º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -9223,7 +9739,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9241,7 +9757,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -9269,7 +9785,10 @@
   {
     "name": "Localizar Objeto",
     "originalName": "Locate Object",
+    "level": 2,
+    "school": "adivinhação",
     "type": "2º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -9279,7 +9798,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9297,7 +9816,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -9325,13 +9844,16 @@
   {
     "name": "Loquacidade",
     "originalName": "Glibness",
+    "level": 5,
+    "school": "transmutação",
     "type": "5º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9349,7 +9871,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -9369,14 +9891,17 @@
   {
     "name": "Lufada De Vento",
     "originalName": "Gust Of Wind",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9394,7 +9919,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -9422,7 +9947,10 @@
   {
     "name": "Luz",
     "originalName": "Light",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -9430,7 +9958,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9448,7 +9976,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -9472,7 +10000,10 @@
   {
     "name": "Luz Do Dia",
     "originalName": "Daylight",
+    "level": 3,
+    "school": "evocação",
     "type": "3º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
@@ -9481,11 +10012,11 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -9499,7 +10030,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -9527,7 +10058,10 @@
   {
     "name": "Malogro",
     "originalName": "Blight",
+    "level": 4,
+    "school": "necromancia",
     "type": "4º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "druida",
@@ -9535,11 +10069,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -9582,17 +10116,20 @@
   {
     "name": "Mansão Magnífica",
     "originalName": "Magnificent Mansion",
+    "level": 7,
+    "school": "conjuração",
     "type": "7º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "300",
+      "value": 300,
       "unit": "pés"
     },
     "components": {
@@ -9606,7 +10143,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -9634,16 +10171,19 @@
   {
     "name": "Mão Arcana",
     "originalName": "Arcane Hand",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -9657,7 +10197,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -9706,14 +10246,17 @@
   {
     "name": "Mãos Flamejantes",
     "originalName": "Burning Hands",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9756,7 +10299,10 @@
   {
     "name": "Mãos Mágicas",
     "originalName": "Mage Hand",
+    "level": 0,
+    "school": "conjuração",
     "type": "truque de conjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -9764,11 +10310,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -9782,7 +10328,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -9810,12 +10356,15 @@
   {
     "name": "Marca Da Punição",
     "originalName": "Branding Smite",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -9833,7 +10382,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -9854,16 +10403,19 @@
   {
     "name": "Marca Do Caçador",
     "originalName": "Hunter's Mark",
+    "level": 1,
+    "school": "adivinhação",
     "type": "1º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -9877,7 +10429,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -9898,7 +10450,10 @@
   {
     "name": "Medo",
     "originalName": "Fear",
+    "level": 3,
+    "school": "ilusão",
     "type": "3º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -9906,7 +10461,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -9924,7 +10479,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -9948,18 +10503,21 @@
   {
     "name": "Mensageiro Animal",
     "originalName": "Animal Messenger",
+    "level": 2,
+    "school": "encantamento",
     "type": "2º nível de encantamento",
+    "isRitual": true,
     "classes": [
       "bardo",
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -9973,7 +10531,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -9998,18 +10556,21 @@
   {
     "name": "Mensagem",
     "originalName": "Message",
+    "level": 0,
+    "school": "transmutação",
     "type": "truque de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10023,7 +10584,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -10047,7 +10608,10 @@
   {
     "name": "Metamorfose",
     "originalName": "Polymorph",
+    "level": 4,
+    "school": "transmutação",
     "type": "4º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
@@ -10055,11 +10619,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -10073,7 +10637,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -10109,18 +10673,21 @@
   {
     "name": "Metamorfose Verdadeira",
     "originalName": "True Polymorph",
+    "level": 9,
+    "school": "transmutação",
     "type": "9º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -10134,7 +10701,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -10189,14 +10756,17 @@
   {
     "name": "Miragem",
     "originalName": "Mirage Arcane",
+    "level": 7,
+    "school": "ilusão",
     "type": "7º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -10214,7 +10784,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "dias",
       "concentration": false
     },
@@ -10246,7 +10816,10 @@
   {
     "name": "Missão",
     "originalName": "Geas",
+    "level": 5,
+    "school": "encantamento",
     "type": "5º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -10255,11 +10828,11 @@
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -10273,7 +10846,7 @@
       }
     },
     "duration": {
-      "value": "30",
+      "value": 30,
       "unit": "dias",
       "concentration": false
     },
@@ -10302,17 +10875,20 @@
   {
     "name": "Mísseis Mágicos",
     "originalName": "Magic Missile",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10347,17 +10923,20 @@
   {
     "name": "Modificar Memória",
     "originalName": "Modify Memory",
+    "level": 5,
+    "school": "encantamento",
     "type": "5º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -10371,7 +10950,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -10408,14 +10987,17 @@
   {
     "name": "Moldar Rochas",
     "originalName": "Stone Shape",
+    "level": 4,
+    "school": "transmutação",
     "type": "4º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -10453,16 +11035,19 @@
   {
     "name": "Montaria Fantasmagórica",
     "originalName": "Phantom Steed",
+    "level": 3,
+    "school": "ilusão",
     "type": "3º nível de ilusão",
+    "isRitual": true,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -10476,7 +11061,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -10500,18 +11085,21 @@
   {
     "name": "Mover Terra",
     "originalName": "Move Earth",
+    "level": 6,
+    "school": "transmutação",
     "type": "6º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10525,7 +11113,7 @@
       }
     },
     "duration": {
-      "value": "2",
+      "value": 2,
       "unit": "horas",
       "concentration": true
     },
@@ -10561,7 +11149,10 @@
   {
     "name": "Movimentação Livre",
     "originalName": "Freedom Of Movement",
+    "level": 4,
+    "school": "abjuração",
     "type": "4º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -10570,7 +11161,7 @@
       "juramento da devoção"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -10588,7 +11179,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -10612,16 +11203,19 @@
   {
     "name": "Muralha De Energia",
     "originalName": "Wall Of Force",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10635,7 +11229,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -10659,16 +11253,19 @@
   {
     "name": "Muralha De Espinhos",
     "originalName": "Wall Of Thorns",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10682,7 +11279,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -10711,7 +11308,10 @@
   {
     "name": "Muralha De Fogo",
     "originalName": "Wall Of Fire",
+    "level": 4,
+    "school": "evocação",
     "type": "4º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
@@ -10719,11 +11319,11 @@
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10737,7 +11337,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -10766,16 +11366,19 @@
   {
     "name": "Muralha De Gelo",
     "originalName": "Wall Of Ice",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10789,7 +11392,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -10818,18 +11421,21 @@
   {
     "name": "Muralha De Pedra",
     "originalName": "Wall Of Stone",
+    "level": 5,
+    "school": "evocação",
     "type": "5º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10843,7 +11449,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -10883,17 +11489,20 @@
   {
     "name": "Muralha De Vento",
     "originalName": "Wind Wall",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -10907,7 +11516,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -10935,16 +11544,19 @@
   {
     "name": "Muralha Prismática",
     "originalName": "Prismatic Wall",
+    "level": 9,
+    "school": "abjuração",
     "type": "9º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -10958,7 +11570,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -11029,18 +11641,21 @@
   {
     "name": "Nevasca",
     "originalName": "Sleet Storm",
+    "level": 3,
+    "school": "conjuração",
     "type": "3º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -11054,7 +11669,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -11082,7 +11697,10 @@
   {
     "name": "Névoa Fétida",
     "originalName": "Stinking Cloud",
+    "level": 3,
+    "school": "conjuração",
     "type": "3º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
@@ -11091,11 +11709,11 @@
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -11109,7 +11727,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -11137,17 +11755,20 @@
   {
     "name": "Névoa Mortal",
     "originalName": "Cloudkill",
+    "level": 5,
+    "school": "conjuração",
     "type": "5º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -11161,7 +11782,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -11190,7 +11811,10 @@
   {
     "name": "Névoa Obscurecente",
     "originalName": "Fog Cloud",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
@@ -11198,11 +11822,11 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -11216,7 +11840,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -11237,14 +11861,17 @@
   {
     "name": "Nublar",
     "originalName": "Blur",
+    "level": 2,
+    "school": "ilusão",
     "type": "2º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "círculo da terra (deserto)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -11262,7 +11889,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -11282,17 +11909,20 @@
   {
     "name": "Nuvem Incendiária",
     "originalName": "Incendiary Cloud",
+    "level": 8,
+    "school": "conjuração",
     "type": "8º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -11306,7 +11936,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -11334,16 +11964,19 @@
   {
     "name": "Olho Arcano",
     "originalName": "Arcane Eye",
+    "level": 4,
+    "school": "adivinhação",
     "type": "4º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -11357,7 +11990,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -11385,7 +12018,10 @@
   {
     "name": "Onda Trovejante",
     "originalName": "Thunderwave",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
@@ -11393,7 +12029,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -11436,16 +12072,19 @@
   {
     "name": "Oração Curativa",
     "originalName": "Prayer Of Healing",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -11480,13 +12119,16 @@
   {
     "name": "Orientação",
     "originalName": "Guidance",
+    "level": 0,
+    "school": "adivinhação",
     "type": "truque de adivinhação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -11504,7 +12146,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -11524,7 +12166,10 @@
   {
     "name": "Padrão Hipnótico",
     "originalName": "Hypnotic Pattern",
+    "level": 3,
+    "school": "ilusão",
     "type": "3º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -11532,11 +12177,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -11550,7 +12195,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -11574,18 +12219,21 @@
   {
     "name": "Palavra Curativa",
     "originalName": "Healing Word",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -11599,7 +12247,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -11620,16 +12268,19 @@
   {
     "name": "Palavra Curativa Em Massa",
     "originalName": "Mass Healing Word",
+    "level": 3,
+    "school": "evocação",
     "type": "3º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -11664,7 +12315,10 @@
   {
     "name": "Palavra De Poder Atordoar",
     "originalName": "Power Word Stun",
+    "level": 8,
+    "school": "encantamento",
     "type": "8º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -11672,11 +12326,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -11714,7 +12368,10 @@
   {
     "name": "Palavra De Poder Matar",
     "originalName": "Power Word Kill",
+    "level": 9,
+    "school": "encantamento",
     "type": "9º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -11722,11 +12379,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -11760,16 +12417,19 @@
   {
     "name": "Palavra De Recordação",
     "originalName": "Word Of Recall",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "5",
+      "value": 5,
       "unit": "pés"
     },
     "components": {
@@ -11807,16 +12467,19 @@
   {
     "name": "Palavra Divina",
     "originalName": "Divine Word",
+    "level": 7,
+    "school": "evocação",
     "type": "7º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -11863,13 +12526,16 @@
   {
     "name": "Parar O Tempo",
     "originalName": "Time Stop",
+    "level": 9,
+    "school": "transmutação",
     "type": "9º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -11911,7 +12577,10 @@
   {
     "name": "Passo Nebuloso",
     "originalName": "Misty Step",
+    "level": 2,
+    "school": "conjuração",
     "type": "2º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
@@ -11919,7 +12588,7 @@
       "círculo da terra (costa)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -11957,7 +12626,10 @@
   {
     "name": "Passos Longos",
     "originalName": "Longstrider",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "druida",
@@ -11965,7 +12637,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -11983,7 +12655,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -12004,13 +12676,16 @@
   {
     "name": "Passos Sem Pegadas",
     "originalName": "Pass Without Trace",
+    "level": 2,
+    "school": "abjuração",
     "type": "2º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12028,7 +12703,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -12048,7 +12723,10 @@
   {
     "name": "Patas De Aranha",
     "originalName": "Spider Climb",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
@@ -12057,7 +12735,7 @@
       "círculo da terra (montanha)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12075,7 +12753,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -12095,13 +12773,16 @@
   {
     "name": "Pele De Árvore",
     "originalName": "Barkskin",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12119,7 +12800,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -12139,7 +12820,10 @@
   {
     "name": "Pele De Pedra",
     "originalName": "Stoneskin",
+    "level": 4,
+    "school": "abjuração",
     "type": "4º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
@@ -12147,7 +12831,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12165,7 +12849,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -12185,13 +12869,16 @@
   {
     "name": "Pequena Cabana",
     "originalName": "Tiny Hut",
+    "level": 3,
+    "school": "evocação",
     "type": "3º nível de evocação",
+    "isRitual": true,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -12209,7 +12896,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -12237,17 +12924,20 @@
   {
     "name": "Perdição",
     "originalName": "Bane",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -12261,7 +12951,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -12282,13 +12972,16 @@
   {
     "name": "Piscar",
     "originalName": "Blink",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12306,7 +12999,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -12330,7 +13023,10 @@
   {
     "name": "Porta Dimensional",
     "originalName": "Dimension Door",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -12338,11 +13034,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "500",
+      "value": 500,
       "unit": "pés"
     },
     "components": {
@@ -12384,18 +13080,21 @@
   {
     "name": "Portal",
     "originalName": "Gate",
+    "level": 9,
+    "school": "conjuração",
     "type": "9º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -12409,7 +13108,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -12437,13 +13136,16 @@
   {
     "name": "Praga",
     "originalName": "Contagion",
+    "level": 5,
+    "school": "necromancia",
     "type": "5º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12461,7 +13163,7 @@
       }
     },
     "duration": {
-      "value": "7",
+      "value": 7,
       "unit": "dias",
       "concentration": false
     },
@@ -12519,18 +13221,21 @@
   {
     "name": "Praga De Insetos",
     "originalName": "Insect Plague",
+    "level": 5,
+    "school": "conjuração",
     "type": "5º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "feiticeiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "300",
+      "value": 300,
       "unit": "pés"
     },
     "components": {
@@ -12544,7 +13249,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -12569,7 +13274,10 @@
   {
     "name": "Prestidigitação",
     "originalName": "Prestidigitation",
+    "level": 0,
+    "school": "transmutação",
     "type": "truque de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -12577,11 +13285,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -12595,7 +13303,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -12630,18 +13338,21 @@
   {
     "name": "Prisão De Energia",
     "originalName": "Forcecage",
+    "level": 7,
+    "school": "evocação",
     "type": "7º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "100",
+      "value": 100,
       "unit": "pés"
     },
     "components": {
@@ -12655,7 +13366,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -12695,12 +13406,15 @@
   {
     "name": "Proibição",
     "originalName": "Forbiddance",
+    "level": 6,
+    "school": "abjuração",
     "type": "6º nível de abjuração",
+    "isRitual": true,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -12718,7 +13432,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "dias",
       "concentration": false
     },
@@ -12750,18 +13464,21 @@
   {
     "name": "Projeção Astral",
     "originalName": "Astral Projection",
+    "level": 9,
+    "school": "necromancia",
     "type": "9º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -12819,17 +13536,20 @@
   {
     "name": "Projetar Imagem",
     "originalName": "Project Image",
+    "level": 7,
+    "school": "ilusão",
     "type": "7º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "500",
+      "value": 500,
       "unit": "pés"
     },
     "components": {
@@ -12843,7 +13563,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -12871,13 +13591,16 @@
   {
     "name": "Proteção Contra A Morte",
     "originalName": "Death Ward",
+    "level": 4,
+    "school": "abjuração",
     "type": "4º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12895,7 +13618,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -12923,7 +13646,10 @@
   {
     "name": "Proteção Contra Energia",
     "originalName": "Protection From Energy",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
@@ -12932,7 +13658,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12950,7 +13676,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -12970,7 +13696,10 @@
   {
     "name": "Proteção Contra O Bem E Mal",
     "originalName": "Protection From Evil And Good",
+    "level": 1,
+    "school": "abjuração",
     "type": "1º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
@@ -12978,7 +13707,7 @@
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -12996,7 +13725,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -13020,7 +13749,10 @@
   {
     "name": "Proteção Contra Veneno",
     "originalName": "Protection From Poison",
+    "level": 2,
+    "school": "abjuração",
     "type": "2º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
@@ -13028,7 +13760,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -13046,7 +13778,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -13070,13 +13802,16 @@
   {
     "name": "Proteger Fortaleza",
     "originalName": "Guards And Wards",
+    "level": 6,
+    "school": "abjuração",
     "type": "6º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -13094,7 +13829,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -13160,18 +13895,21 @@
   {
     "name": "Purificar Alimentos",
     "originalName": "Purify Food And Drink",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "druida",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -13205,18 +13943,21 @@
   {
     "name": "Queda Suave",
     "originalName": "Feather Fall",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "reação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -13230,7 +13971,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -13250,18 +13991,21 @@
   {
     "name": "Raio Ardente",
     "originalName": "Scorching Ray",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "o corruptor"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -13300,17 +14044,20 @@
   {
     "name": "Raio De Enfraquecimento",
     "originalName": "Ray Of Enfeeblement",
+    "level": 2,
+    "school": "necromancia",
     "type": "2º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -13324,7 +14071,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -13348,17 +14095,20 @@
   {
     "name": "Raio De Fogo",
     "originalName": "Fire Bolt",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -13392,17 +14142,20 @@
   {
     "name": "Raio De Gelo",
     "originalName": "Ray Of Frost",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -13440,16 +14193,19 @@
   {
     "name": "Raio Guiador",
     "originalName": "Guiding Bolt",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -13463,7 +14219,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -13484,16 +14240,19 @@
   {
     "name": "Raio Lunar",
     "originalName": "Moonbeam",
+    "level": 2,
+    "school": "evocação",
     "type": "2º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -13507,7 +14266,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -13536,14 +14295,17 @@
   {
     "name": "Raio Solar",
     "originalName": "Sunbeam",
+    "level": 6,
+    "school": "evocação",
     "type": "6º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -13561,7 +14323,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -13585,7 +14347,10 @@
   {
     "name": "Rajada De Veneno",
     "originalName": "Poison Spray",
+    "level": 0,
+    "school": "conjuração",
     "type": "truque de conjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "druida",
@@ -13593,11 +14358,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -13611,7 +14376,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -13635,16 +14400,19 @@
   {
     "name": "Rajada Mística",
     "originalName": "Eldritch Blast",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "bruxo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -13658,7 +14426,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -13682,13 +14450,16 @@
   {
     "name": "Rajada Prismática",
     "originalName": "Prismatic Spray",
+    "level": 7,
+    "school": "evocação",
     "type": "7º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -13766,12 +14537,15 @@
   {
     "name": "Recipiente Arcano",
     "originalName": "Magic Jar",
+    "level": 6,
+    "school": "necromancia",
     "type": "6º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -13833,14 +14607,17 @@
   {
     "name": "Recuo Acelerado",
     "originalName": "Expeditious Retreat",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
@@ -13858,7 +14635,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -13878,12 +14655,15 @@
   {
     "name": "Reencarnação",
     "originalName": "Reincarnate",
+    "level": 5,
+    "school": "transmutação",
     "type": "5º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
@@ -13995,7 +14775,10 @@
   {
     "name": "Reflexos",
     "originalName": "Mirror Image",
+    "level": 2,
+    "school": "ilusão",
     "type": "2º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
@@ -14003,7 +14786,7 @@
       "círculo da terra (costa)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14021,7 +14804,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -14057,14 +14840,17 @@
   {
     "name": "Regeneração",
     "originalName": "Regenerate",
+    "level": 7,
+    "school": "transmutação",
     "type": "7º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -14082,7 +14868,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -14106,14 +14892,17 @@
   {
     "name": "Relâmpago",
     "originalName": "Lightning Bolt",
+    "level": 3,
+    "school": "evocação",
     "type": "3º nível de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "círculo da terra (montanha)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14156,7 +14945,10 @@
   {
     "name": "Remover Maldição",
     "originalName": "Remove Curse",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
@@ -14164,7 +14956,7 @@
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14202,13 +14994,16 @@
   {
     "name": "Repouso Tranquilo",
     "originalName": "Gentle Repose",
+    "level": 2,
+    "school": "necromancia",
     "type": "2º nível de necromancia",
+    "isRitual": true,
     "classes": [
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14226,7 +15021,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "dias",
       "concentration": false
     },
@@ -14250,16 +15045,19 @@
   {
     "name": "Repreensão Infernal",
     "originalName": "Hellish Rebuke",
+    "level": 1,
+    "school": "evocação",
     "type": "1º nível de evocação",
+    "isRitual": false,
     "classes": [
       "bruxo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "reação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -14294,13 +15092,16 @@
   {
     "name": "Resistência",
     "originalName": "Resistance",
+    "level": 0,
+    "school": "abjuração",
     "type": "truque de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14318,7 +15119,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -14338,7 +15139,10 @@
   {
     "name": "Respirar Na Água",
     "originalName": "Water Breathing",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": true,
     "classes": [
       "druida",
       "feiticeiro",
@@ -14346,11 +15150,11 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -14364,7 +15168,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -14384,13 +15188,16 @@
   {
     "name": "Ressurreição",
     "originalName": "Resurrection",
+    "level": 7,
+    "school": "necromancia",
     "type": "7º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
@@ -14444,13 +15251,16 @@
   {
     "name": "Ressurreição Verdadeira",
     "originalName": "True Resurrection",
+    "level": 9,
+    "school": "necromancia",
     "type": "9º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
@@ -14496,14 +15306,17 @@
   {
     "name": "Restauração Maior",
     "originalName": "Greater Restoration",
+    "level": 5,
+    "school": "abjuração",
     "type": "5º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14550,7 +15363,10 @@
   {
     "name": "Restauração Menor",
     "originalName": "Lesser Restoration",
+    "level": 2,
+    "school": "abjuração",
     "type": "2º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
@@ -14559,7 +15375,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14597,14 +15413,17 @@
   {
     "name": "Reviver Os Mortos",
     "originalName": "Raise Dead",
+    "level": 5,
+    "school": "necromancia",
     "type": "5º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "horas"
     },
     "range": {
@@ -14654,13 +15473,16 @@
   {
     "name": "Revivificar",
     "originalName": "Revivify",
+    "level": 3,
+    "school": "necromancia",
     "type": "3º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14698,17 +15520,20 @@
   {
     "name": "Riso Histérico",
     "originalName": "Hideous Laughter",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -14722,7 +15547,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -14746,14 +15571,17 @@
   {
     "name": "Rogar Maldição",
     "originalName": "Bestow Curse",
+    "level": 3,
+    "school": "necromancia",
     "type": "3º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14771,7 +15599,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -14806,7 +15634,10 @@
   {
     "name": "Salto",
     "originalName": "Jump",
+    "level": 1,
+    "school": "transmutação",
     "type": "1º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
@@ -14814,7 +15645,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -14832,7 +15663,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -14852,17 +15683,20 @@
   {
     "name": "Santuário",
     "originalName": "Sanctuary",
+    "level": 1,
+    "school": "abjuração",
     "type": "1º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "juramento da devoção"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação bonus"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -14876,7 +15710,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -14900,16 +15734,19 @@
   {
     "name": "Santuário Particular",
     "originalName": "Private Sanctum",
+    "level": 4,
+    "school": "abjuração",
     "type": "4º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -14923,7 +15760,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -14963,17 +15800,20 @@
   {
     "name": "Semiplano",
     "originalName": "Demiplane",
+    "level": 8,
+    "school": "conjuração",
     "type": "8º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -14987,7 +15827,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -15011,18 +15851,21 @@
   {
     "name": "Servo Invisível",
     "originalName": "Unseen Servant",
+    "level": 1,
+    "school": "conjuração",
     "type": "1º nível de conjuração",
+    "isRitual": true,
     "classes": [
       "bardo",
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -15036,7 +15879,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -15064,7 +15907,10 @@
   {
     "name": "Sexto Sentido",
     "originalName": "Foresight",
+    "level": 9,
+    "school": "adivinhação",
     "type": "9º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -15072,7 +15918,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -15090,7 +15936,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -15114,7 +15960,10 @@
   {
     "name": "Silêncio",
     "originalName": "Silence",
+    "level": 2,
+    "school": "ilusão",
     "type": "2º nível de ilusão",
+    "isRitual": true,
     "classes": [
       "bardo",
       "clérigo",
@@ -15122,11 +15971,11 @@
       "círculo da terra (deserto)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -15140,7 +15989,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -15164,14 +16013,17 @@
   {
     "name": "Símbolo",
     "originalName": "Symbol",
+    "level": 7,
+    "school": "abjuração",
     "type": "7º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -15265,18 +16117,21 @@
   {
     "name": "Similaridade",
     "originalName": "Seeming",
+    "level": 5,
+    "school": "ilusão",
     "type": "5º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -15290,7 +16145,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -15322,12 +16177,15 @@
   {
     "name": "Simulacro",
     "originalName": "Simulacrum",
+    "level": 7,
+    "school": "ilusão",
     "type": "7º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "12",
+      "time": 12,
       "unit": "horas"
     },
     "range": {
@@ -15377,17 +16235,20 @@
   {
     "name": "Sinal De Esperança",
     "originalName": "Beacon Of Hope",
+    "level": 3,
+    "school": "abjuração",
     "type": "3º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "juramento da devoção"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -15401,7 +16262,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -15421,7 +16282,10 @@
   {
     "name": "Sonho",
     "originalName": "Dream",
+    "level": 5,
+    "school": "ilusão",
     "type": "5º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -15429,7 +16293,7 @@
       "círculo da terra (planice)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "minutos"
     },
     "range": {
@@ -15447,7 +16311,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -15479,18 +16343,21 @@
   {
     "name": "Sono",
     "originalName": "Sleep",
+    "level": 1,
+    "school": "encantamento",
     "type": "1º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -15504,7 +16371,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -15533,7 +16400,10 @@
   {
     "name": "Sugestão",
     "originalName": "Suggestion",
+    "level": 2,
+    "school": "encantamento",
     "type": "2º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -15541,11 +16411,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -15559,7 +16429,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": true
     },
@@ -15591,7 +16461,10 @@
   {
     "name": "Sugestão Em Massa",
     "originalName": "Mass Suggestion",
+    "level": 6,
+    "school": "encantamento",
     "type": "6º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -15599,11 +16472,11 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -15617,7 +16490,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -15646,16 +16519,19 @@
   {
     "name": "Taumaturgia",
     "originalName": "Thaumaturgy",
+    "level": 0,
+    "school": "transmutação",
     "type": "truque de transmutação",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -15669,7 +16545,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": false
     },
@@ -15703,17 +16579,20 @@
   {
     "name": "Teia",
     "originalName": "Web",
+    "level": 2,
+    "school": "conjuração",
     "type": "2º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -15727,7 +16606,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": true
     },
@@ -15763,17 +16642,20 @@
   {
     "name": "Telecinésia",
     "originalName": "Telekinesis",
+    "level": 5,
+    "school": "transmutação",
     "type": "5º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -15787,7 +16669,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -15829,18 +16711,21 @@
   {
     "name": "Teletransporte",
     "originalName": "Teleport",
+    "level": 7,
+    "school": "conjuração",
     "type": "7º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -15973,16 +16858,19 @@
   {
     "name": "Teletransporte Por Árvores",
     "originalName": "Transport Via Plants",
+    "level": 6,
+    "school": "conjuração",
     "type": "6º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "10",
+      "value": 10,
       "unit": "pés"
     },
     "components": {
@@ -15996,7 +16884,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -16016,12 +16904,15 @@
   {
     "name": "Tempestade Da Vingança",
     "originalName": "Storm Of Vengeance",
+    "level": 9,
+    "school": "conjuração",
     "type": "9º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "druida"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16039,7 +16930,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -16083,18 +16974,21 @@
   {
     "name": "Tempestade De Fogo",
     "originalName": "Fire Storm",
+    "level": 7,
+    "school": "evocação",
     "type": "7º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "feiticeiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "150",
+      "value": 150,
       "unit": "pés"
     },
     "components": {
@@ -16132,18 +17026,21 @@
   {
     "name": "Tempestade De Gelo",
     "originalName": "Ice Storm",
+    "level": 4,
+    "school": "evocação",
     "type": "4º nível de evocação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "300",
+      "value": 300,
       "unit": "pés"
     },
     "components": {
@@ -16182,16 +17079,19 @@
   {
     "name": "Tentáculos Negros",
     "originalName": "Black Tentacles",
+    "level": 4,
+    "school": "conjuração",
     "type": "4º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "90",
+      "value": 90,
       "unit": "pés"
     },
     "components": {
@@ -16205,7 +17105,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -16233,18 +17133,21 @@
   {
     "name": "Terremoto",
     "originalName": "Earthquake",
+    "level": 8,
+    "school": "evocação",
     "type": "8º nível de evocação",
+    "isRitual": false,
     "classes": [
       "clérigo",
       "druida",
       "feiticeiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "500",
+      "value": 500,
       "unit": "pés"
     },
     "components": {
@@ -16258,7 +17161,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -16304,7 +17207,10 @@
   {
     "name": "Terreno Alucinógeno",
     "originalName": "Hallucinatory Terrain",
+    "level": 4,
+    "school": "ilusão",
     "type": "4º nível de ilusão",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -16312,11 +17218,11 @@
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
-      "value": "300",
+      "value": 300,
       "unit": "pés"
     },
     "components": {
@@ -16330,7 +17236,7 @@
       }
     },
     "duration": {
-      "value": "24",
+      "value": 24,
       "unit": "horas",
       "concentration": false
     },
@@ -16354,18 +17260,21 @@
   {
     "name": "Toque Arrepiante",
     "originalName": "Chill Touch",
+    "level": 0,
+    "school": "necromancia",
     "type": "truque de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "120",
+      "value": 120,
       "unit": "pés"
     },
     "components": {
@@ -16379,7 +17288,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "rodadas",
       "concentration": false
     },
@@ -16407,13 +17316,16 @@
   {
     "name": "Toque Chocante",
     "originalName": "Shocking Grasp",
+    "level": 0,
+    "school": "evocação",
     "type": "truque de evocação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16455,13 +17367,16 @@
   {
     "name": "Toque Vampírico",
     "originalName": "Vampiric Touch",
+    "level": 3,
+    "school": "necromancia",
     "type": "3º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16479,7 +17394,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -16500,12 +17415,15 @@
   {
     "name": "Tranca Arcana",
     "originalName": "Arcane Lock",
+    "level": 2,
+    "school": "abjuração",
     "type": "2º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16547,12 +17465,15 @@
   {
     "name": "Truque De Corda",
     "originalName": "Rope Trick",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16570,7 +17491,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -16602,18 +17523,21 @@
   {
     "name": "Velocidade",
     "originalName": "Haste",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago",
       "círculo da terra (planice)"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "30",
+      "value": 30,
       "unit": "pés"
     },
     "components": {
@@ -16627,7 +17551,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "minutos",
       "concentration": true
     },
@@ -16651,14 +17575,17 @@
   {
     "name": "Ver O Invisível",
     "originalName": "See Invisibility",
+    "level": 2,
+    "school": "adivinhação",
     "type": "2º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16676,7 +17603,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -16696,7 +17623,10 @@
   {
     "name": "Viagem Planar",
     "originalName": "Plane Shift",
+    "level": 7,
+    "school": "conjuração",
     "type": "7º nível de conjuração",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "clérigo",
@@ -16705,7 +17635,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16751,7 +17681,10 @@
   {
     "name": "Vidência",
     "originalName": "Scrying",
+    "level": 5,
+    "school": "adivinhação",
     "type": "5º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -16760,7 +17693,7 @@
       "mago"
     ],
     "casting": {
-      "time": "10",
+      "time": 10,
       "unit": "minutos"
     },
     "range": {
@@ -16778,7 +17711,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": true
     },
@@ -16854,12 +17787,15 @@
   {
     "name": "Vínculo Protetor",
     "originalName": "Warding Bond",
+    "level": 2,
+    "school": "abjuração",
     "type": "2º nível de abjuração",
+    "isRitual": false,
     "classes": [
       "clérigo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16877,7 +17813,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -16901,7 +17837,10 @@
   {
     "name": "Visão Da Verdade",
     "originalName": "True Seeing",
+    "level": 6,
+    "school": "adivinhação",
     "type": "6º nível de adivinhação",
+    "isRitual": false,
     "classes": [
       "bardo",
       "bruxo",
@@ -16910,7 +17849,7 @@
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16928,7 +17867,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -16948,7 +17887,10 @@
   {
     "name": "Visão No Escuro",
     "originalName": "Darkvision",
+    "level": 2,
+    "school": "transmutação",
     "type": "2º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "druida",
       "feiticeiro",
@@ -16956,7 +17898,7 @@
       "patrulheiro"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -16974,7 +17916,7 @@
       }
     },
     "duration": {
-      "value": "8",
+      "value": 8,
       "unit": "horas",
       "concentration": false
     },
@@ -16994,13 +17936,16 @@
   {
     "name": "Vitalidade Falsa",
     "originalName": "False Life",
+    "level": 1,
+    "school": "necromancia",
     "type": "1º nível de necromancia",
+    "isRitual": false,
     "classes": [
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -17018,7 +17963,7 @@
       }
     },
     "duration": {
-      "value": "1",
+      "value": 1,
       "unit": "horas",
       "concentration": false
     },
@@ -17039,14 +17984,17 @@
   {
     "name": "Voo",
     "originalName": "Fly",
+    "level": 3,
+    "school": "transmutação",
     "type": "3º nível de transmutação",
+    "isRitual": false,
     "classes": [
       "bruxo",
       "feiticeiro",
       "mago"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
@@ -17064,7 +18012,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },
@@ -17085,16 +18033,19 @@
   {
     "name": "Zombaria Viciosa",
     "originalName": "Vicious Mockery",
+    "level": 0,
+    "school": "encantamento",
     "type": "truque de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -17132,18 +18083,21 @@
   {
     "name": "Zona Da Verdade",
     "originalName": "Zone Of Truth",
+    "level": 2,
+    "school": "encantamento",
     "type": "2º nível de encantamento",
+    "isRitual": false,
     "classes": [
       "bardo",
       "clérigo",
       "paladino"
     ],
     "casting": {
-      "time": "1",
+      "time": 1,
       "unit": "ação"
     },
     "range": {
-      "value": "60",
+      "value": 60,
       "unit": "pés"
     },
     "components": {
@@ -17157,7 +18111,7 @@
       }
     },
     "duration": {
-      "value": "10",
+      "value": 10,
       "unit": "minutos",
       "concentration": false
     },

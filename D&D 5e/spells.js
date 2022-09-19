@@ -8,8 +8,8 @@ const { writeFileSync } = require('fs');
   // Esperar todas as magias carregarem
   // Mapear todas magias e organizar em um JSON
 
-  // const browser = await puppeteer.launch({ headless: false });
-  const browser = await puppeteer.launch();
+  const browser = await puppeteer.launch({ headless: false });
+  // const browser = await puppeteer.launch();
   const page = await browser.newPage();
   await page.goto('https://dnd5spells.rpgist.net/pt-BR/spells');
 
@@ -36,7 +36,8 @@ const { writeFileSync } = require('fs');
       const name = spell.querySelector('div .panel-heading h3.title > span');
       const originalName = spell.querySelector('div .panel-heading h3.title > small span');
       const type = spell.querySelector('div .panel-heading p span span');
-
+      const isRitual = spell.querySelector('div .panel-heading p span[translate="RITUAL"]')
+      
       const classes = spell.querySelectorAll('spell-casters-names > span > a');
 
       const castingTime = spell.querySelector('.panel-body p span[ng-bind="spell.castingTime"]');
@@ -113,17 +114,31 @@ const { writeFileSync } = require('fs');
 
       // O sistema de mapeamento deixa uma spell vazia, caso o número total seja impar, é necessário validar;
       if (name && originalName && type && classes) {
+        const firstChar = type.innerText.substr(0, 1);
+        const isTrick = isNaN(firstChar); 
+        let level;
+        let school;
+        if(isTrick) {
+          level = 0;
+          school = type.innerText.replace('truque de ', '');
+        } else {
+          level = parseInt(firstChar);
+          school = type.innerText.substr('xº nível de '.length);
+        }
         const spellObject = {
           name: name.innerText,
           originalName: originalName.innerText,
+          level,
+          school,
           type: type.innerText,
+          isRitual: isRitual ? true : false,
           classes: [...classes].map(uniqueClass => uniqueClass.innerText),
           casting: {
-            time: castingTime ? castingTime.innerText : null,
+            time: castingTime ? parseInt(castingTime.innerText) : null,
             unit: castingTimeUnity.innerText
           },
           range: {
-            value: spellRange ? spellRange.innerText : null,
+            value: spellRange ? parseInt(spellRange.innerText) : null,
             unit: spellRangeUnity.innerText
           },
           components: {
@@ -137,7 +152,7 @@ const { writeFileSync } = require('fs');
             }
           },
           duration: {
-            value: duration ? duration.innerHTML : 0,
+            value: duration ? parseInt(duration.innerHTML) : 0,
             unit: durationUnit ? durationUnit.innerText : null,
             concentration: needConcentration ? true : false
           },
